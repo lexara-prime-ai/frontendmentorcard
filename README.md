@@ -13,18 +13,15 @@
 ### Build
 
 ```
-npm init
-
+$ npm init
 ```
 
 ```
-npm i tsc
-
+$ npm i tsc
 ```
 
 ```
-tsc ./assets/App.ts
-
+$ tsc ./assets/App.ts
 ```
 
 ```
