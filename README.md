@@ -6,7 +6,7 @@
 
 ![preview](https://github.com/projectfinalaudio/frontendmentorcard/blob/master/previews/preview.png?raw=true)
 
-## Installation(*Android*)![android](https://github.com/projectfinalaudio/frontendmentorcard/blob/master/assets/icon/ic_launcher.png?raw=true | width=100)
+## Installation(*Android*)<img src="https://github.com/projectfinalaudio/frontendmentorcard/blob/master/assets/icon/ic_launcher.png?raw=true" width="50%">
 
 ![preview](https://github.com/projectfinalaudio/frontendmentorcard/blob/master/previews/installation.png?raw=true)
 
