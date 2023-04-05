@@ -1,0 +1,28 @@
+{
+    "version": "1.0.0",
+    "name": "frontendmentorcard",
+    "app-name": "frontendmentorcard",
+    "package-name": "webview",
+    "project-type": "webview",
+    "icon": "./assets/icon/reaction.png",
+    "dist-path": "./dist",
+    "permission": [
+        "android.permission.INTERNET"
+    ],
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "start:dev": "node .",
+        "build": "androidjs build"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "androidjs": "^2.0.2",
+        "dotenv": "^16.0.3"
+    },
+    "project-name": "frontendmentorcard",
+    "theme": {
+        "fullScreen": true
+    }
+}
