@@ -26,6 +26,5 @@ $ tsc ./assets/App.ts
 
 ```
 $ npm run build
-
 ```
 
