@@ -10,3 +10,9 @@
 
 ![preview](https://github.com/projectfinalaudio/frontendmentorcard/blob/master/previews/installation.png?raw=true)
 
+### Build
+```
+$ npm run build
+
+```
+
