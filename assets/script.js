@@ -6,3 +6,4 @@ front.on("Node runtime", function(msg){
 	$('#msg').html(msg);
 });
 
+

@@ -1,0 +1,130 @@
+/********** GOOGLE FONTS ***********/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+:root {
+    --snow: #FFF6F5ff;
+    --gray: #c7c7c7;
+
+    /******** SHADOW ********/
+    --shadow: 0 2rem 2rem 0 rgba(0, 0, 0, .15);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+html,
+body {
+    height: 100%;
+    
+}
+
+.rating {
+    background: linear-gradient(to top, #322de9, #4825C8ff);
+    background-repeat: no-repeat;
+    box-shadow: var(--shadow);
+}
+
+.user-rating {
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-size: 1.7rem;
+    margin-bottom: .3rem;
+    padding: 1rem;
+    color: var(--snow);
+}
+
+.rating-info {
+    font-size: .9rem;
+    max-width: 240px;
+    margin: auto;
+    padding: .5rem;
+    padding-bottom: 3rem;
+    color: var(--gray);
+}
+
+hr {
+    border-top: none;
+    color: var(--gray);
+    box-shadow: var(--shadow);
+}
+
+.graph-container {
+    margin: 2rem;
+    margin-top: 4rem;
+}
+
+.title-container {
+    
+}
+
+.title {
+    font-family: Roboto, sans-serif;
+    color: #b3b3b3;
+}
+
+.bar {
+    padding: 1rem;
+}
+
+.icon {
+    padding-left: .4rem;
+}
+
+
+
+.graph-bar {
+    opacity: .6;
+    transition: .4s all ease;
+    cursor: pointer;
+}
+
+.graph-bar:hover {
+    opacity: 1;
+}
+
+.highest {
+    opacity: 1;
+    animation: grow 4s;
+}
+
+/* INDIVIDUAL STYLING FOR GRAPH BARS */
+
+.reaction {
+    border-radius: 12px;
+    border-left: 180px solid #ff5555;
+}
+
+.memory {
+    border-radius: 12px;
+    border-left: 220px solid #ffc555;
+}
+
+.verbal {
+    border-radius: 12px;
+    border-left: 120px solid #3fcbaa;
+}
+
+.visual {
+    border-radius: 12px;
+    border-left: 150px solid #3d4edd;
+}
+
+/********* ANIMATIONS **********/
+@keyframes grow {
+    0% {
+        border-left: 220px solid #ffc555;
+    }
+    50% {
+        border-left: 20px solid #ffc555;
+    }
+    100% {
+        border-left: 220px solid #ffc555;
+    }
+}
+
